@@ -10,7 +10,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# Custom CSS for styling metrics & layout
+# Custom CSS for styling
 st.markdown("""
     <style>
     .main {
@@ -125,7 +125,6 @@ elif page == "Customer Segmentation":
     st.plotly_chart(fig, use_container_width=True)
 
 # --- CUSTOMER CHURN ---
-elif page == "Customer CHURN ---
 elif page == "Customer Churn":
     st.title("⚠️ Customer Churn Prediction")
     st.write("Identifying customers who are at high risk of churning.")
