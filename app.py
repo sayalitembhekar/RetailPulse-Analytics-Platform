@@ -1,4 +1,15 @@
 import streamlit as st
+st.markdown("""
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    [data-testid="stSidebarNav"] {display: none;}
+    </style>
+    """, unsafe_allow_html=True)
+
+st.sidebar.markdown("### 👩‍💻 Developed by Sayali Tembhekar")
+
 import pandas as pd
 import numpy as np
 import plotly.express as px
